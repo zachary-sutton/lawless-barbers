@@ -1,38 +1,209 @@
-.App {
-  text-align: center;
+html, body{
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* NAV */
+#nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: rgba(0,0,0,0);
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link{
+  color:white!important;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-link:hover{
+  color:rgb(179, 179, 179)!important;
+}
+
+/* LANDING */
+.landing-wrap{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(./imgs/landing.jpg);
+  background-position: center;
+  background-size: contain;
+  filter: grayscale(90%);
+  font-family: 'Lobster Two', cursive;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.heading-wrap{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.heading-wrap h1{
+  font-size: 5rem;
+}
+
+/* ABOUT */
+.about-heading{
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.hr-about{
+  border-top: 1px solid black;
+  width: 100%;
+}
+
+/* PARALLAX */
+#parallax {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(./imgs/trim.jpg);
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-title{
+  color: white;
+  font-family: 'Lobster Two', cursive;
+}
+
+.parallax-text{
+  color: white;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.parallax-text:hover{
+  color: white;
+  text-decoration-color: white;
+}
+
+
+.content-wrap{
+  top: 120px!important;
+}
+
+.partner-logo{
+  width: 25rem;
+  height: auto;
+}
+
+/* CONTENT (SERVICES)*/
+.content-heading{
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.service-title{
+  font-family: 'Lobster Two', cursive;
+}
+
+.p-text{
+  color: grey;
+}
+
+.service-price, .service-btn{
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+/* THE TEAM */
+#the-team{
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(./imgs/bg-2.jpg);
+  color: white;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.tile-container{
+  background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1)), url(./imgs/bg-2.jpg);
+  padding: 0!important;
+}
+
+/* OPENING HOURS */
+table{
+  table-layout: fixed;
+}
+
+th{
+  font-family: 'Lobster Two', cursive;
+  font-size: 2rem;
+}
+
+td{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1.5rem;
+}
+
+/* CONNECT */
+#connect{
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(./imgs/tools.jpg);
+  background-position: center;
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover{
+  color: rgb(119, 119, 119);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.socket{
+  color: white;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 577px) { 
+  /*LANDING*/
+  .heading-wrap{
+    top:20%;
   }
-  to {
-    transform: rotate(360deg);
+
+  /*PARALLAX*/
+  .partner-logo{
+    width: 20rem;
+  }
+
+  /* OPENING HOURS */
+  td{
+    font-size: 1rem;
   }
 }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 769px) { 
+  /*NAV*/ 
+  #nav{
+    position: fixed;
+  }
+  .navbar{
+    background-color: black;
+  }
+  
+  /*LANDING*/
+  .heading-wrap{
+    top:15%;
+  }
+
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 993px) { 
+  .heading-wrap{
+    top:25%;
+  }
+
+  td{
+    font-size: 1rem;
+  }
+
+  /*THE TEAM*/
+  .tile-container{
+    margin-bottom: 2rem;
+  }
+
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1201px) {  }
