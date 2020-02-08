@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lawless-barbers/precache-manifest.b61dc9cc079b20853b239608db14722b.js"
+  "/lawless-barbers/precache-manifest.4ef52cad2dcb8443f7e5d58f2e653961.js"
 );
 
 self.addEventListener('message', (event) => {

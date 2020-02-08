@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lawless-barbers/static/css/main.07578238.chunk.css",
-    "main.js": "/lawless-barbers/static/js/main.6b4fa3c8.chunk.js",
-    "main.js.map": "/lawless-barbers/static/js/main.6b4fa3c8.chunk.js.map",
+    "main.js": "/lawless-barbers/static/js/main.268d92cc.chunk.js",
+    "main.js.map": "/lawless-barbers/static/js/main.268d92cc.chunk.js.map",
     "runtime-main.js": "/lawless-barbers/static/js/runtime-main.544f5832.js",
     "runtime-main.js.map": "/lawless-barbers/static/js/runtime-main.544f5832.js.map",
     "static/css/2.47e06e2e.chunk.css": "/lawless-barbers/static/css/2.47e06e2e.chunk.css",
     "static/js/2.fa5abb32.chunk.js": "/lawless-barbers/static/js/2.fa5abb32.chunk.js",
     "static/js/2.fa5abb32.chunk.js.map": "/lawless-barbers/static/js/2.fa5abb32.chunk.js.map",
     "index.html": "/lawless-barbers/index.html",
-    "precache-manifest.b61dc9cc079b20853b239608db14722b.js": "/lawless-barbers/precache-manifest.b61dc9cc079b20853b239608db14722b.js",
+    "precache-manifest.4ef52cad2dcb8443f7e5d58f2e653961.js": "/lawless-barbers/precache-manifest.4ef52cad2dcb8443f7e5d58f2e653961.js",
     "service-worker.js": "/lawless-barbers/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/lawless-barbers/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.07578238.chunk.css.map": "/lawless-barbers/static/css/main.07578238.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.fa5abb32.chunk.js",
     "static/css/main.07578238.chunk.css",
-    "static/js/main.6b4fa3c8.chunk.js"
+    "static/js/main.268d92cc.chunk.js"
   ]
 }

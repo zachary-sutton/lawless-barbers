@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c26c1f2f10989050b3a7607c3afab6ea",
+    "revision": "6de12760893b44692b4fa48eca917841",
     "url": "/lawless-barbers/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lawless-barbers/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "b406e0afb3324298c821",
+    "revision": "a7fa472e2f5c89faed60",
     "url": "/lawless-barbers/static/css/main.07578238.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lawless-barbers/static/js/2.fa5abb32.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b406e0afb3324298c821",
-    "url": "/lawless-barbers/static/js/main.6b4fa3c8.chunk.js"
+    "revision": "a7fa472e2f5c89faed60",
+    "url": "/lawless-barbers/static/js/main.268d92cc.chunk.js"
   },
   {
     "revision": "111480778b69fd092acd",
